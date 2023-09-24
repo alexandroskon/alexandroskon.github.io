@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: journal papers, conference papers & drafts, patents, and theses
 nav: true
-nav_order: 1
+nav_order: 0
 ---
 <!-- _pages/publications.md -->
 
@@ -23,7 +23,12 @@ nav_order: 1
 {% bibliography -f {{ site.scholar.patents }} %}
 </div>
 
-## theses
+## phd thesis
 <div class="publications">
-{% bibliography -f {{ site.scholar.theses }} %}
+{% bibliography -f {{ site.scholar.phd_thesis }} %}
+</div>
+
+## diploma thesis
+<div class="publications">
+{% bibliography -f {{ site.scholar.diploma_thesis }} %}
 </div>

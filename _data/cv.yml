@@ -85,13 +85,13 @@
       institution: Institute for Energy and Environmental Flows @ University of Cambridge
       items: <i>Inverse problems in fluid dynamics for enhanced velocimetry </i>
     - year: Nov 2023
-      institution: APS 
-      items: <i> asdsad </i>
+      institution: APS DFD 2023 - Fluid Dynamics in Clinical Imaging (Minisymposium)
+      items: <i> Learning Bayesian digital twins of flows from PC-MRI data </i>
 
-- title: conference presentations
-  type: time_table
-  contents:
-    - year: 2023
+# - title: conference presentations
+#   type: time_table
+#   contents:
+#     - year: 2023
 
 - title: teaching
   type: time_table
@@ -101,10 +101,10 @@
       items: 
         - Lab supervision
         - "Engineering Tripos Part IIA, 3A1 Fluid Mechanics I (Tutorial)"
-    - institution: University of Patras, Greece
+    - institution: ATLAS Aero Group, University of Patras, Greece
       year: 2014-2015
       items: 
-        - Lecture series in low-speed aerodynamics
+        - Lecture series in low-speed aerodynamics for RPV design
 
 - title: academic community service
   type: time_table
@@ -132,8 +132,7 @@
         - numerical analysis, finite element methods
     - title: magnetic resonance velocimetry
       items:
-        - methods
-        - sampling patterns
+        - mathematical methods and design of optimal sampling patterns
 
 # - title: academic interests2
 #   type: d3_tree
