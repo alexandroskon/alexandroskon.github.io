@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: ATLAS RPV
 description: another without an image
 img:
 importance: 3
-category: fun
+category: hands-on
 ---
 
 Every project has a beautiful feature showcase page.

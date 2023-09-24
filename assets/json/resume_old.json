@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Alexandros Kontogiannis",
+    "status": "EPSRC Fellow in Fluid Dynamics @ Cambridge University",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ak2239@cam.ac.uk",
+    "phone": "",
+    "url": "https://alexandroskon.github.io",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Trumpington street",
+      "postalCode": "CB3 1AQ",
+      "city": "Cambridge",
+      "countryCode": "UK",
+      "region": "Cambridgeshire"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
@@ -38,15 +38,15 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Cambridge University",
+      "url": "",
+      "area": "fluid dynamics, inverse problems, Bayesian inference",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2019-10-01",
+      "endDate": "2023-03-30",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "probabilistic machine learning, flow instability"
       ]
     }
   ],

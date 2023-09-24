@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: rheology + mri
 description: a project with a background image
 img: assets/img/12.jpg
-importance: 1
-category: work
+importance: 2
+category: research
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

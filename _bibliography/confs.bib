@@ -1,0 +1,73 @@
+# --------------------------------------------------------------------------------------------------------
+# CONFERENCE PAPERS
+# --------------------------------------------------------------------------------------------------------
+
+@incollection{Kontogiannis2019,
+abbr={AIAA SciTech},
+annote = {doi:10.2514/6.2019-2116},
+author = {Kontogiannis, A. and Parenteau, M. and Laurendeau, E.},
+booktitle = {AIAA Scitech 2019 Forum},
+DOI = {10.2514/6.2019-2116},
+isbn = {978-1-62410-578-4},
+month = {Jan},
+publisher = {AIAA},
+title = {{Viscous-inviscid analysis of transonic swept wings using 2.5D RANS and parametric shapes}},
+year = {2019},
+html={https://arc.aiaa.org/doi/10.2514/6.2019-2116},
+preview={aircraft_vii_scitech.png}
+}
+
+@inproceedings{Kontogiannis2018,
+author = {Kontogiannis, A. and Prakash, A. and Laurendeau, E. and Moens, F.},
+title = {{Sensitivity of glaze ice accretion and iced aerodynamics prediction to roughness}},
+abstract={A study of the effect of the assumed ice roughness on ice shape prediction and aerodynamic performance degradation has been conducted to quantify the sensitivity of glaze ice accretion prediction according to the value of equivalent sand grain roughness height (ks). The motivation stems from the fact that a good representative value of ks is almost never known a priori, and usually crude roughness models are employed. First, a validation of the icing suite NSCODE-ICE is presented, for both ice-accretion and aerodynamic performance degradation, using three icing experiments performed in the Icing Research Tunnel (IRT) of NASA. Then, a sensitivity study is conducted for a range of ks values that are most common for ice formation on transport aircraft wings, encountering atmospheric icing conditions. The goal is to quantify the variation of aerodynamic performance loss due to the uncertainty introduced by the choice of the ks value},
+booktitle = {26th Annual Conf. of the Computational Fluid Dynamics Society of Canada},
+year = {2018},
+address = {Winnipeg, Manitoba},
+pdf={CFDSC2018_Kontogiannis.pdf},
+preview={CFDSC2018_Kontogiannis.png}
+}
+
+@inproceedings{Radenac2018,
+author = {Radenac, E. and Kontogiannis, A. and Bayeux, C. and Villedieu, P.},
+DOI = {10.2514/6.2018-2858},
+isbn = {978-1-62410-558-6},
+booktitle = {10th AIAA Atmospheric and Space Environments Conf.},
+title = {{An extended rough-wall model for an integral boundary layer model intended for ice accretion calculations}},
+year = {2018}
+}
+
+@inproceedings{Trontin2017,
+title = {Description and assessment of the new ONERA 2D icing suite IGLOO2D},
+author = {Trontin, P. and Kontogiannis, A. and Blanchard, G. and Villedieu, P.},
+abstract={},
+DOI = {10.2514/6.2017-3417},
+isbn = {978-1-62410-496-1},
+issn = {2017-3417},
+booktitle = {9th AIAA Atmospheric and Space Environments Conf.},
+year = {2017},
+altmetric={true}
+}
+
+@inproceedings{Karakalas2017,
+address = {Madrid, Spain},
+author = {Karakalas, A. and Kontogiannis, A., and Machairas, T. and Solomou, A. and Riziotis, V. and Saravanos, D.},
+booktitle = {VIII ECCOMAS Thematic Conf. on Smart Structures and Materials (SMART)},
+title = {{A robust fluid-structure interaction numerical tool for the analysis of airfoil morphing structures with shape memory alloy actuators}},
+year = {2017}
+}
+
+# --------------------------------------------------------------------------------------------------------
+# DRAFT PAPERS
+# --------------------------------------------------------------------------------------------------------
+
+@misc{Sengupta2021,
+ abbr={arXiv Draft},
+ title = {Simultaneous boundary shape estimation and velocity field de-noising in magnetic resonance velocimetry using physics-informed neural networks},
+ abstract={Magnetic resonance velocimetry (MRV) is a non-invasive experimental technique widely used in medicine and engineering to measure the velocity field of a fluid. These measurements are dense but have a low signal-to-noise ratio (SNR). The measurements can be de-noised by imposing physical constraints on the flow, which are encapsulated in governing equations for mass and momentum. Previous studies have required the shape of the boundary (for example, a blood vessel) to be known a priori. This, however, requires a set of additional measurements, which can be expensive to obtain. In this paper, we present a physics-informed neural network that instead uses the noisy MRV data alone to simultaneously infer the most likely boundary shape and de-noised velocity field. We achieve this by training an auxiliary neural network that takes the value 1.0 within the inferred domain of the governing PDE and 0.0 outside. This network is used to weight the PDE residual term in the loss function accordingly and implicitly learns the geometry of the system. We test our algorithm by assimilating both synthetic and real MRV measurements for flows that can be well modeled by the Poisson and Stokes equations. We find that we are able to reconstruct very noisy (SNR = 2.5) MRV signals and recover the ground truth with low reconstruction errors of 3.7 - 7.5%. The simplicity and flexibility of our physics-informed neural network approach can readily scale to assimilating MRV data with complex 3D geometries, time-varying 4D data, or unknown parameters in the physical model.},
+ author = {Sengupta, U. and Kontogiannis, A. and Juniper, M. P.},
+ doi = {10.48550/ARXIV.2107.07863},
+ publisher = {arXiv},
+ arxiv={2107.07863},
+ year = {2021},
+}

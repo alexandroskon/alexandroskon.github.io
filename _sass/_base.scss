@@ -429,6 +429,25 @@ footer.sticky-bottom {
   }
 }
 
+.hover-text {
+      display: inline-block;
+      position: relative;
+    }
+
+.hover-content {
+  display: none;
+  position: absolute;
+}
+
+.hover-text:hover {
+  visibility: hidden;
+}
+
+.hover-text:hover .hover-content {
+  display: block;
+  visibility: visible;
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;

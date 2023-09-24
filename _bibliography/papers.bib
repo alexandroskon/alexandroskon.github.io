@@ -1,84 +1,104 @@
----
----
+# --------------------------------------------------------------------------------------------------------
+# SELECTED PAPERS
+# --------------------------------------------------------------------------------------------------------
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{Kontogiannis2022,
+ abbr={J. Fluid Mech.}, 
+ title={Joint reconstruction and segmentation of noisy velocity images as an inverse Navier--Stokes problem},
+ author={Kontogiannis, A. and Elgersma, S. V. and Sederman, A. J. and Juniper, M. P.},
+ abstract={We formulate and solve a generalized inverse Navier–Stokes problem for the joint velocity field reconstruction and boundary segmentation of noisy flow velocity images. To regularize the problem, we use a Bayesian framework with Gaussian random fields. This allows us to estimate the uncertainties of the unknowns by approximating their posterior covariance with a quasi-Newton method. We first test the method for synthetic noisy images of two-dimensional (2-D) flows and observe that the method successfully reconstructs and segments the noisy synthetic images with a signal-to-noise ratio (SNR) of three. Then we conduct a magnetic resonance velocimetry (MRV) experiment to acquire images of an axisymmetric flow for low (≃6) and high (>30) SNRs. We show that the method is capable of reconstructing and segmenting the low SNR images, producing noiseless velocity fields and a smooth segmentation, with negligible errors compared with the high SNR images. This amounts to a reduction of the total scanning time by a factor of 27. At the same time, the method provides additional knowledge about the physics of the flow (e.g. pressure) and addresses the shortcomings of MRV (i.e. low spatial resolution and partial volume effects) that otherwise hinder the accurate estimation of wall shear stresses. Although the implementation of the method is restricted to 2-D steady planar and axisymmetric flows, the formulation applies immediately to three-dimensional (3-D) steady flows and naturally extends to 3-D periodic and unsteady flows.},
+ journal={Journal of Fluid Mechanics}, 
+ volume={944},
+ pages={A40},
+ year={2022}, 
+ publisher={Cambridge University Press}, 
+ doi={10.1017/jfm.2022.503}, 
+ html={https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/joint-reconstruction-and-segmentation-of-noisy-velocity-images-as-an-inverse-navierstokes-problem/ABAC0DEA49A8AEB4BDB0622ADD169958#article},
+ arxiv={2207.01368},
+ altmetric={130621674},
+ dimensions={true},
+ selected={true},
+ preview={graphical_abstract.png}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{Kontogiannis2022b,
+ abbr={IEEE TIP},
+ title={Physics-informed compressed sensing for PC-MRI: an inverse Navier-Stokes problem}, 
+ author={Kontogiannis, A. and Juniper, M. P.},
+ abstract={We formulate a physics-informed compressed sensing (PICS) method for the reconstruction of velocity fields from noisy and sparse phase-contrast magnetic resonance signals. The method solves an inverse Navier-Stokes boundary value problem, which permits us to jointly reconstruct and segment the velocity field, and at the same time infer hidden quantities such as the hydrodynamic pressure and the wall shear stress. Using a Bayesian framework, we regularize the problem by introducing a priori information about the unknown parameters in the form of Gaussian random fields. This prior information is updated using the Navier-Stokes problem, an energy-based segmentation functional, and by requiring that the reconstruction is consistent with the k -space signals. We create an algorithm that solves this inverse problem, and test it for noisy and sparse k -space signals of the flow through a converging nozzle. We find that the method is capable of reconstructing and segmenting the velocity fields from sparsely-sampled (15% k -space coverage), low ( ∼10 ) signal-to-noise ratio (SNR) signals, and that the reconstructed velocity field compares well with that derived from fully-sampled (100% k -space coverage) high ( >40 ) SNR signals of the same flow.},
+ journal={IEEE Transactions on Image Processing}, 
+ volume={32},
+ pages={281-294},
+ year={2023},
+ publisher={IEEE},
+ doi={10.1109/TIP.2022.3228172},
+ html={https://ieeexplore.ieee.org/document/9985992},
+ arxiv={2207.01466},
+ altmetric={true},
+ dimensions={true},
+ selected={true},
+ preview={pics_concept4.png}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{Kontogiannis2021,
+abbr={ASME-FEDSM},
+title = {Inverse problems in magnetic resonance velocimetry: shape, forcing and boundary condition inference},
+author = {Kontogiannis, A. and Juniper, M. P.},
+abstract = {We derive and implement an algorithm that takes noisy magnetic resonance velocimetry (MRV) images of Stokes flow and infers the velocity field, the most likely position of the boundary, the inlet and outlet boundary conditions, and any body forces. We do this by minimizing a discrepancy norm of the velocity fields between the MRV experiment and the Stokes problem, and at the same time we obtain a filtered (denoised) version of the original MRV image. We describe two possible approaches to regularize the inverse problem, using either a variational technique, or Gaussian random fields. We test the algorithm for flows governed by a Poisson or a Stokes problem, using both real and synthetic MRV measurements. We find that the algorithm is capable of reconstructing the shape of the domain from artificial images with a low signal-To-noise ratio.},
+doi = {10.1115/FEDSM2021-66080},
+html={https://asmedigitalcollection.asme.org/FEDSM/proceedings-abstract/FEDSM2021/85291/V002T04A018/1120894},
+isbn = {9780791885291},
+issn = {08888116},
+journal = {ASME, Fluids Engineering Division (Publication) FEDSM},
+volume = {2},
+year = {2021},
+month={October},
+dimensions={true},
+altmetric={true},
+pdf={kontogiannis_fedsm2021.pdf},
+preview={kontogiannis_fedsm2021b.png},
+selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{Kontogiannis2021b,
+ abbr={AIAA J.},
+ abstract = {The adjoint state of a nonlinear vortex-lattice method, coupled with sectional polars obtained with an infinite swept-wing (2.5D) Reynolds-averaged Navier–Stokes (RANS) solver, is presented as an interactive method for preliminary aerodynamic design and control of moderate-to-high aspect ratio wings in subsonic and transonic flows. First, the nonlinear vortex-lattice method is described, augmented with a Prandtl–Glauert compressibility correction and regularized so that poststall solutions can be recovered. The linearization of the coupled system of equations is formulated using a Newton method, and the adjoint state is obtained for lift, drag, and inverse design functionals. Numerical results show that the aerodynamic model approximates well the forces predicted by three-dimensional (3D) RANS simulations for the Common Research Model wing, and that the adjoint-state gradients agree well with finite difference tests for a plethora of test cases. More interesting examples are shown, ranging from the optimal unstalling of wings to the assimilation of 3D RANS data into the present model, as well as its ability to extrapolate.},
+ author = {Kontogiannis, A. and Laurendeau, E.},
+ doi = {10.2514/1.J059796},
+ issn = {1533385X},
+ journal = {AIAA Journal},
+ number = {4},
+ pages = {1184--1195},
+ title = {{Adjoint state of nonlinear vortex-lattice method for aerodynamic design and control}},
+ volume = {59},
+ month={February},
+ year = {2021},
+ html={https://arc.aiaa.org/doi/10.2514/1.J059796},
+ altmetric={true},
+ dimensions={true},
+ selected={true},
+ preview={nlvlm.png}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+# --------------------------------------------------------------------------------------------------------
+# JOURNAL PAPERS
+# --------------------------------------------------------------------------------------------------------
+
+@article{Machairas_2018,
+ abbr={IOP-SMS},
+ title = {Robust fluid-structure interaction analysis of an adaptive airfoil using shape memory alloy actuators},
+ author = {T. Machairas and A. Kontogiannis and A. Karakalas and A. Solomou and V. Riziotis and D. Saravanos},
+ abstract = {In the present paper, an aero-structure interaction model for the rapid simulation of morphing structures realized through shape memory alloy (SMA) actuators is presented. The aerodynamic simulation method implements a potential flow method strongly coupled with an integral boundary layer method in the context of a viscous-inviscid interaction approach, which includes a transition prediction model and a simplified shear stress-transport equation for the turbulence closure. The structural analysis model of the airfoil integrates a well-established SMA constitutive model for the prediction of the actuator behavior into finite element software. The two numerical models are loosely interconnected by exchanging geometrical and loading data at each iteration. An articulated 2-link adaptive mechanism for load alleviation purposes in horizontal axis wind turbine blades is investigated considering two different morphing scenarios: (1) operation of a single hinged flap; (2) combined movement of two sequential airfoil segments is attempted to achieve a smoother camber variation. The present fluid-structure interaction (FSI) model is employed with the aim to quantify its effect and benefits on the active shape control of the morphing airfoil, the actuator response, and the aerodynamic performance including lift and drag coefficients. The presented results demonstrate the robustness and numerical performance of the developed FSI method.},
+ url = {https://dx.doi.org/10.1088/1361-665X/aad649},
+ year = {2018},
+ month = {sep},
+ publisher = {IOP Publishing},
+ volume = {27},
+ doi = {10.1088/1361-665X/aad649},
+ number = {10},
+ pages = {105035},
+ journal = {Smart Materials and Structures},
+ html={https://iopscience.iop.org/article/10.1088/1361-665X/aad649},
+ preview={iop_robust_machairas.png}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
