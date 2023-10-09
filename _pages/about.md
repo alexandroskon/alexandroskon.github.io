@@ -6,12 +6,13 @@ subtitle: <a href='https://www.ukri.org/news/fellowships-will-give-uk-fluid-dyna
 
 profile:
   align: right
-  image: my_pic.png
+  image: my_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Hopkinson Lab (ISO-40)</p>
     <p>CUED Trumpington Street</p>
     <p>Cambridge CB2 1PZ UK</p>
+    <p>ak2239@cam.ac.uk</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

@@ -105,8 +105,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
-contact_note: >
-  You can contact me at ak2239#at#cam#dot#ac#dot#uk.
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
