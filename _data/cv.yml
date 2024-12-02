@@ -5,7 +5,7 @@
       value: Alexandros Kontogiannis
     - name: position
       value: <a href="https://www.ukri.org/news/fellowships-will-give-uk-fluid-dynamics-sector-new-momentum/"> 
-             EPSRC research fellow in fluid dynamics </a> @ University of Cambridge
+             EPSRC national research fellow in fluid dynamics </a> @ University of Cambridge
     - name: address
       value: CUED, Trumpington Street, Cambridge, CB2 1PZ, UK
     - name: languages
@@ -14,9 +14,9 @@
 - title: education & research
   type: time_table
   contents:
-    - title: EPSRC research fellow in fluid dynamics
+    - title: EPSRC national research fellow in fluid dynamics
       institution: University of Cambridge, United Kingdom
-      year: 2023 - NOW
+      year: 2023 - 2026
       description:
         - <i>Learning digital twins of flows from noisy and sparse flow-MRI data</i>
     
@@ -56,6 +56,11 @@
 - title: awards and grants
   type: time_table
   contents:
+    - year: 2023
+        - <a href="https://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics"> 
+             EPSRC national research fellowship in fluid dynamics </a>
+      items: 
+        - ASME Fluids Engineering Division Graduate Student Scholar Award
     - year: 2021
       items: 
         - ASME Fluids Engineering Division Graduate Student Scholar Award
@@ -93,11 +98,26 @@
 #   contents:
 #     - year: 2023
 
+- title: student supervision
+  type: time_table
+  contents:
+    - institution: Ph.D students @ University of Cambridge, United Kingdom
+      year: 2024-2027
+      items: 
+        - Claire Namuroy (Bayesian RANS inversion for turbulent flow-MRI data)
+        - Thomas Cheetham (Bayesian Navier-Stokes inversion of time-periodic flow-MRI data)
+    - institution: MSc. students @ University of Cambridge, United Kingdom
+      year: 2024-2025
+      items: 
+        - Davit Gyulamiryan (New numerical methods for Navier-Stokes inversion)
+        - Daniel Rivlin (Algorithms for 2D (slice) reconstruction of flow-MRI and US data)
+        - Sanadi Ilandaridewa (Flow reconstruction and parameter inference algorithms in medical imaging)
+
 - title: teaching
   type: time_table
   contents:
     - institution: University of Cambridge, United Kingdom
-      year: 2020-2023
+      year: 2020-2025
       items: 
         - "Eng. Tripos Part IIA, 3A1 Fluid Mechanics I (Tutorial)"
         - "Eng. Tripos Part IIA Project, SA1: Aircraft Wing Analysis (Lab demonstrator)"
