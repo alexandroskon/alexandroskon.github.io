@@ -57,10 +57,9 @@
   type: time_table
   contents:
     - year: 2023
+      items: 
         - <a href="https://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics"> 
              EPSRC national research fellowship in fluid dynamics </a>
-      items: 
-        - ASME Fluids Engineering Division Graduate Student Scholar Award
     - year: 2021
       items: 
         - ASME Fluids Engineering Division Graduate Student Scholar Award
@@ -104,14 +103,14 @@
     - institution: Ph.D students @ University of Cambridge, United Kingdom
       year: 2024-2027
       items: 
-        - Claire Namuroy (Bayesian RANS inversion for turbulent flow-MRI data)
-        - Thomas Cheetham (Bayesian Navier-Stokes inversion of time-periodic flow-MRI data)
+        - Claire Namuroy (<i>Bayesian RANS inversion for turbulent flow-MRI data</i>)
+        - Thomas Cheetham (<i>Bayesian Navier-Stokes inversion of time-periodic flow-MRI data</i>)
     - institution: MSc. students @ University of Cambridge, United Kingdom
       year: 2024-2025
       items: 
-        - Davit Gyulamiryan (New numerical methods for Navier-Stokes inversion)
-        - Daniel Rivlin (Algorithms for 2D (slice) reconstruction of flow-MRI and US data)
-        - Sanadi Ilandaridewa (Flow reconstruction and parameter inference algorithms in medical imaging)
+        - Davit Gyulamiryan (<i>New numerical methods for Navier-Stokes inversion</i>)
+        - Daniel Rivlin (<i>Algorithms for 2D (slice) reconstruction of flow-MRI and US data</i>)
+        - Sanadi Ilandaridewa (<i>Flow reconstruction and parameter inference algorithms in medical imaging</i>)
 
 - title: teaching
   type: time_table
