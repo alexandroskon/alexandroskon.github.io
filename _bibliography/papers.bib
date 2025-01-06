@@ -2,6 +2,21 @@
 # SELECTED PAPERS
 # --------------------------------------------------------------------------------------------------------
 
+@misc{kontogiannis2024c,
+      title={Bayesian inference of mean velocity fields and turbulence models from flow MRI}, 
+      author={Kontogiannis, A. and Elgersma, S. V. and Sederman, A. J. and Juniper, M. P.},
+      abstract={We solve a Bayesian inverse Reynolds-averaged Navier-Stokes (RANS) problem that assimilates mean flow data by jointly reconstructing the mean flow field and learning its unknown RANS parameters. We devise an algorithm that learns the most likely parameters of an algebraic effective viscosity model, and estimates their uncertainties, from mean flow data of a turbulent flow. We conduct a flow MRI experiment to obtain mean flow data of a confined turbulent jet in an idealized medical device known as the FDA (Food and Drug Administration) nozzle. The algorithm successfully reconstructs the mean flow field and learns the most likely turbulence model parameters without overfitting. The methodology accepts any turbulence model, be it algebraic (explicit) or multi-equation (implicit), as long as the model is differentiable, and naturally extends to unsteady turbulent flows.},
+      year={2024},
+      eprint={2412.11266},
+      arxiv={2412.11266},
+      archivePrefix={arXiv},
+      primaryClass={physics.flu-dyn},
+      url={https://arxiv.org/abs/2412.11266},
+      dimensions={true},
+      selected={true},
+      preview={3d_jet_reco_turb.png} 
+}
+
 @misc{kontogiannis2024b,
       title={Learning rheological parameters of non-Newtonian fluids from velocimetry data}, 
       author={Kontogiannis, A. and Hodgkinson, R. and Manchester, E. L.},
@@ -16,23 +31,25 @@
       selected={true},
       preview={3d_jet_reco.png}
 }
-}
 
-@article{kontogiannis2024a,
-      title={Bayesian inverse Navier-Stokes problems: joint flow field reconstruction and parameter learning},author={Kontogiannis, A. and Elgersma, S. V. and Sederman, A. J. and Juniper, M. P.},
-      abstract={We formulate and solve a Bayesian inverse Navier-Stokes (N-S) problem that assimilates velocimetry data in order to jointly reconstruct a 3D flow field and learn the unknown N-S parameters, including the boundary position. By hardwiring a generalised N-S problem, and regularising its unknown parameters using Gaussian prior distributions, we learn the most likely parameters in a collapsed search space. The most likely flow field reconstruction is then the N-S solution that corresponds to the learned parameters. We develop the method in the variational setting and use a stabilised Nitsche weak form of the N-S problem that permits the control of all N-S parameters. To regularise the inferred the geometry, we use a viscous signed distance field (vSDF) as an auxiliary variable, which is given as the solution of a viscous Eikonal boundary value problem. We devise an algorithm that solves this inverse problem, and numerically implement it using an adjoint-consistent stabilised cut-cell finite element method. We then use this method to reconstruct magnetic resonance velocimetry (flow-MRI) data of a 3D steady laminar flow through a physical model of an aortic arch for two different Reynolds numbers and signal-to-noise ratio (SNR) levels (low/high). We find that the method can accurately i) reconstruct the low SNR data by filtering out the noise/artefacts and recovering flow features that are obscured by noise, and ii) reproduce the high SNR data without overfitting. Although the framework that we develop applies to 3D steady laminar flows in complex geometries, it readily extends to time-dependent laminar and Reynolds-averaged turbulent flows, as well as non-Newtonian (e.g. viscoelastic) fluids.},
-      journal={Inverse Problems},
-      year={2024},
-      arxiv={2406.18464},
-      eprint={2406.18464},
-      archivePrefix={arXiv},
-      primaryClass={physics.flu-dyn},
-      url={http://iopscience.iop.org/article/10.1088/1361-6420/ad9cb7},
-      html={https://iopscience.iop.org/article/10.1088/1361-6420/ad9cb7},
-      doi={10.1088/1361-6420/ad9cb7}, 
-      dimensions={true},
-      selected={true},
-      preview={bayesian_inv_ns_problems.png}
+@article{Kontogiannis_2025,
+doi = {10.1088/1361-6420/ad9cb7},
+url = {https://dx.doi.org/10.1088/1361-6420/ad9cb7},
+html={https://iopscience.iop.org/article/10.1088/1361-6420/ad9cb7},
+year = {2024},
+month = {dec},
+publisher = {IOP Publishing},
+volume = {41},
+number = {1},
+pages = {015008},
+author = {Kontogiannis, A. and Elgersma, S. V. and Sederman, A. J. and Juniper, M. P.},
+title = {Bayesian inverse Navier–Stokes problems: joint flow field reconstruction and parameter learning},
+journal = {Inverse Problems},
+abstract = {We formulate and solve a Bayesian inverse Navier–Stokes (N–S) problem that assimilates velocimetry data in order to jointly reconstruct a 3D flow field and learn the unknown N–S parameters, including the boundary position. By hardwiring a generalised N–S problem, and regularising its unknown parameters using Gaussian prior distributions, we learn the most likely parameters in a collapsed search space. The most likely flow field reconstruction is then the N–S solution that corresponds to the learned parameters. We develop the method in the variational setting and use a stabilised Nitsche weak form of the N–S problem that permits the control of all N–S parameters. To regularise the inferred geometry, we use a viscous signed distance field as an auxiliary variable, which is given as the solution of a viscous Eikonal boundary value problem. We devise an algorithm that solves this inverse problem, and numerically implement it using an adjoint-consistent stabilised cut-cell finite element method. We then use this method to reconstruct magnetic resonance velocimetry (flow-MRI) data of a 3D steady laminar flow through a physical model of an aortic arch for two different Reynolds numbers and signal-to-noise ratio (SNR) levels (low/high). We find that the method can accurately (i) reconstruct the low SNR data by filtering out the noise/artefacts and recovering flow features that are obscured by noise, and (ii) reproduce the high SNR data without overfitting. Although the framework that we develop applies to 3D steady laminar flows in complex geometries, it readily extends to time-dependent laminar and Reynolds-averaged turbulent flows, as well as non-Newtonian (e.g. viscoelastic) fluids.},
+dimensions={true},
+selected={true},
+preview={bayesian_inv_ns_problems.png}
+
 }
 
 @article{Kontogiannis2022,
