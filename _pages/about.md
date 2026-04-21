@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ukri.org/news/fellowships-will-give-uk-fluid-dynamics-sector-new-momentum/'> EPSRC Research Fellow in Fluid Dynamics</a> @ Cambridge University
+subtitle: <a href='http://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics'> EPSRC Research Fellow in Fluid Dynamics</a> @ Cambridge University
 
 profile:
   align: right
@@ -27,4 +27,4 @@ I am currently working on `Bayesian inverse problems` in `fluid dynamics` for `m
 
 My main research concerns the formulation of new machine learning methods that `automatically reconstruct corrupted flowfields`. These methods learn the most probable simulation that corresponds to the corrupted flowfield, and, at the same time, infer unknown quantities (e.g. pressure) that are either hard or impossible to measure otherwise. 
 
-In a nutshell, I develop algorithms that learn the most probable physical model (aka [digital twin](http://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics)) of the flowfield dynamics from data.
+In a nutshell, I develop algorithms that learn the most probable physical model (aka digital twin) of the flowfield dynamics from data.

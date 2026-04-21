@@ -4,7 +4,7 @@
     - name: full name
       value: Alexandros Kontogiannis
     - name: position
-      value: <a href="https://www.ukri.org/news/fellowships-will-give-uk-fluid-dynamics-sector-new-momentum/"> 
+      value: <a href="https://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics"> 
              EPSRC national research fellow in fluid dynamics </a> @ University of Cambridge
     - name: address
       value: CUED, Trumpington Street, Cambridge, CB2 1PZ, UK
@@ -56,6 +56,9 @@
 - title: awards and grants
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - EPSRC impact acceleration accounts (IAA) funded fellowship to attend Impulse 2026
     - year: 2024
       items:
         - Stanford CTR Summer Program 2024 - Bayesian inference of mean velocity fields and turbulence models from flow MRI
@@ -110,6 +113,9 @@
         - Thomas Cheetham. <i>Bayesian Navier-Stokes inversion of time-periodic flow-MRI data</i>
         - Davit Gyulamiryan. <i>Bayesian physics-informed compressed sensing for flow-MRI</i>
     - institution: MSc. students @ University of Cambridge, United Kingdom
+      year: 2026
+      items:
+        - Fangru Lin. <i>GPU-accelerated FEM solvers for fluid dynamics</i>
       year: 2024-2025
       items: 
         - Davit Gyulamiryan. <i>New numerical methods for Navier-Stokes inversion</i>
@@ -122,7 +128,8 @@
     - institution: University of Cambridge, United Kingdom
       year: 2020-2026
       items: 
-        - "Eng. Tripos Part IIA, 3A1 Fluid Mechanics I (Tutorial)"
+        - "Eng. Tripos Part IIA, 3G2: Mathematical Physiology: Circulatory System (Tutorial)" 
+        - "Eng. Tripos Part IIA, 3A1: Fluid Mechanics I (Tutorial)"
         - "Eng. Tripos Part IIA Project, SA1: Aircraft Wing Analysis (Lab demonstrator)"
     - institution: ATLAS Aero Group, University of Patras, Greece
       year: 2014-2015
