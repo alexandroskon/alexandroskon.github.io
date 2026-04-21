@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: journal papers, conference papers & drafts, patents, and theses
 nav: true
-nav_order: 0
+nav_order: 1
 ---
 <!-- _pages/publications.md -->
 

@@ -113,14 +113,16 @@
         - Thomas Cheetham. <i>Bayesian Navier-Stokes inversion of time-periodic flow-MRI data</i>
         - Davit Gyulamiryan. <i>Bayesian physics-informed compressed sensing for flow-MRI</i>
     - institution: MSc. students @ University of Cambridge, United Kingdom
-      year: 2026
-      items:
-        - Fangru Lin. <i>GPU-accelerated FEM solvers for fluid dynamics</i>
-      year: 2024-2025
-      items: 
-        - Davit Gyulamiryan. <i>New numerical methods for Navier-Stokes inversion</i>
-        - Daniel Rivlin. <i>Algorithms for 2D (slice) reconstruction of flow-MRI and US data</i>
-        - Sanadi Ilandaridewa. <i>Flow reconstruction and parameter inference algorithms in medical imaging</i>
+      entries:
+        - year: 2026
+          items:
+            - Fangru Lin. <i>GPU-accelerated FEM solvers for fluid dynamics</i>
+
+        - year: 2024-2025
+          items: 
+            - Davit Gyulamiryan. <i>New numerical methods for Navier-Stokes inversion</i>
+            - Daniel Rivlin. <i>Algorithms for 2D (slice) reconstruction of flow-MRI and US data</i>
+            - Sanadi Ilandaridewa. <i>Flow reconstruction and parameter inference algorithms in medical imaging</i>
 
 - title: teaching
   type: time_table
