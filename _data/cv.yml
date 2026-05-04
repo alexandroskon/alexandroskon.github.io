@@ -169,4 +169,6 @@
 - title: affiliations
   type: list
   contents:
-    - American Physical Society (APS), Society for Industrial and Applied Mathematics (SIAM)
+    - European Society for Magnetic Resonance in Medicine and Biology (ESMRMB)
+    - American Physical Society (APS)
+    - Society for Industrial and Applied Mathematics (SIAM)
