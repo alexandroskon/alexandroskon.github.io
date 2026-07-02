@@ -4,8 +4,7 @@
     - name: full name
       value: Alexandros Kontogiannis
     - name: position
-      value: <a href="https://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics"> 
-             EPSRC national research fellow in fluid dynamics </a> @ University of Cambridge
+      value: Assistant Research Professor of physics-based machine learning @ University of Cambridge
     - name: address
       value: CUED, Trumpington Street, Cambridge, CB2 1PZ, UK
     - name: languages
@@ -14,7 +13,14 @@
 - title: education & research
   type: time_table
   contents:
-    - title: EPSRC national research fellow in fluid dynamics
+    - title: Assistant Research Professor of physics-based machine learning
+      institution: University of Cambridge, United Kingdom
+      year: 2026 - Present
+      description:
+        - <i>ML algorithms, computer vision, and inverse problems for medical imaging</i>
+
+    - title: <a href="https://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics"> 
+             UKRI (EPSRC) national research fellow in fluid dynamics </a>
       institution: University of Cambridge, United Kingdom
       year: 2023 - 2026
       description:

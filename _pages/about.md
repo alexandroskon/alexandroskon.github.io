@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='http://www.eng.cam.ac.uk/news/phd-student-awarded-national-fellowship-fluid-dynamics'> EPSRC Research Fellow in Fluid Dynamics</a> @ Cambridge University
+subtitle: Assistant Research Professor of physics-based machine learning @ Cambridge University
 
 profile:
   align: right
@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 ***
 
-I am EPSRC research fellow in fluid dynamics and applied mathematics at Cambridge University Engineering Department. 
+I am Assistant Research Professor of physics-based machine learning at Cambridge University Engineering Department.
 
 I am currently working on `Bayesian inverse problems` in `fluid dynamics` for `magnetic resonance velocimetry`. In the past, I have worked on aerodynamic modelling, fluid-structure interaction, simulations of ice accretion on aircraft wings, and aerodynamic shape optimisation.
 
